@@ -6,6 +6,7 @@ public class HelloJava {
 
         int myValue = 10_000; // equal to 10000
         // Primitive Data Type - int
+        System.out.println("====== int datatype ========");
         int myMinIntValue = Integer.MIN_VALUE;
         int myMaxIntValue = Integer.MAX_VALUE;
 
@@ -16,6 +17,7 @@ public class HelloJava {
         System.out.println("====================================");
 
         // Primitive Data Type - byte
+        System.out.println("====== byte datatype ========");
         byte myMinByteValue = Byte.MIN_VALUE;
         byte myMaxByteValue = Byte.MAX_VALUE;
         System.out.println("Byte Minimum Value: " + myMinByteValue);
@@ -23,6 +25,7 @@ public class HelloJava {
         System.out.println("====================================");
 
         // Primitive Data Type - short
+        System.out.println("====== short datatype ========");
         short myMinShortValue = Short.MIN_VALUE;
         short myMaxShortValue = Short.MAX_VALUE;
         System.out.println("Short Minimum Value: " + myMinShortValue);
@@ -30,6 +33,7 @@ public class HelloJava {
         System.out.println("====================================");
 
         // Primitive Data Type - long
+        System.out.println("====== long datatype ========");
         long myLongValue = 10L; //L denoted/casting that it is a long type variable
         long myMinLongValue = Long.MIN_VALUE;
         long myMaxLongValue = Long.MAX_VALUE;
@@ -40,6 +44,7 @@ public class HelloJava {
         System.out.println("====================================");
 
         // Primitive Data Type - float
+        System.out.println("====== float datatype ========");
         float myFloatValue = 5.07f; //f is denoting/casting it to float type
         System.out.println(myFloatValue);
 
@@ -50,6 +55,7 @@ public class HelloJava {
         System.out.println("====================================");
 
         // Primitive Data Type - double
+        System.out.println("====== double datatype ========");
         double myDoubleValue = 5d; //d is denoting/casting it to double type
         System.out.println(myDoubleValue);
 
@@ -60,6 +66,7 @@ public class HelloJava {
         System.out.println("====================================");
 
         // challenge - convert pound to kilogram
+        System.out.println("====== challenge on double datatype ========");
         double noOfPounds = 200d;
         double onePoundOfKilogram = 0.45359237d;
         double convertPoundToKilogram = noOfPounds * onePoundOfKilogram;
@@ -67,11 +74,32 @@ public class HelloJava {
         System.out.println("====================================");
 
         // Primitive Data Type - char
+        System.out.println("====== char datatype ========");
         char myChar = 'A'; //char data type contain a single character in a variable.
         char myCharUnicode = '\u0041'; // unicode character are also declared by char datatype
         System.out.println(myChar);
         System.out.println(myCharUnicode);
         System.out.println("====================================");
 
+        // Primitive Data Type - boolean
+        System.out.println("====== boolean datatype ========");
+        boolean trueBoolValue = true;
+        boolean falseBoolValue = false;
+        System.out.println(trueBoolValue);
+        System.out.println(falseBoolValue);
+        System.out.println("====================================");
+
+
+        // Class Data type - String
+        System.out.println("====== String datatype ========");
+        String myString = "this is a string.";
+        System.out.println("String output: " + myString);
+        myString = "this is a string. \u00A9 2022";
+        System.out.println("String output: " + myString);
+        int myNumber = 15;
+        System.out.println(myString + myNumber);
+        System.out.println(myString + 25 + myNumber);
+        System.out.println("= Note: String in JAVA are immutable means it cannot be change the values second time that are created. =");
+        System.out.println("====================================");
     }
 }
