@@ -101,5 +101,21 @@ public class HelloJava {
         System.out.println(myString + 25 + myNumber);
         System.out.println("= Note: String in JAVA are immutable means it cannot be change the values second time that are created. =");
         System.out.println("====================================");
+
+
+        System.out.println("====== Operator Challenge ========");
+        double firstValue = 20.00d;
+        double secondValue = 80.00d;
+        double twoNumbersSum = firstValue + secondValue;
+        System.out.println("20.00 + 80.00 = " + twoNumbersSum);
+        double calculationOne = twoNumbersSum * 100.00d;
+        System.out.println("100.00 * 100.00 = " + calculationOne);
+        double reminderOutput = calculationOne % 40.00d;
+        System.out.println("10000.00 % 40.00 = " + reminderOutput);
+        boolean isRemainderNotZero = reminderOutput == 0 ? true : false;
+        System.out.println(isRemainderNotZero);
+        if(!isRemainderNotZero){
+            System.out.println("Got some remainder");
+        }
     }
 }
