@@ -11,5 +11,10 @@ public class Main {
         // megabytes converter challenge start -------
         MegaBytesConverter.printMegaBytesAndKiloBytes(2500);
         // megabytes converter challenge end -------
+
+        // barking dog challenge start -------
+        boolean isBarking = BarkingDog.shouldWakeUp(true,-1);
+        System.out.println(isBarking);
+        // barking dog challenge end -------
     }
 }
