@@ -26,5 +26,10 @@ public class Main {
         boolean areNumbersThreeDecimalPlaced = DecimalComparatorChallenge.areEqualByThreeDecimalPlaces(-3, 3.176);
         System.out.println(areNumbersThreeDecimalPlaced);
         // decimal comparator challenge end -------
+
+        // decimal comparator challenge start -------
+        boolean isEqualFirstSecondParamsSumWithThirdParam = EqualSumCheckerChallenge.hasEqualSum(1,-1,0);
+        System.out.println(isEqualFirstSecondParamsSumWithThirdParam);
+        // decimal comparator challenge end -------
     }
 }
