@@ -16,5 +16,10 @@ public class Main {
         boolean isBarking = BarkingDogChallenge.shouldWakeUp(true,-1);
         System.out.println(isBarking);
         // barking dog challenge end -------
+
+        // leap  challenge start -------
+        boolean isLeapYear = LeapYearChallenge.isLeapYear(2000);
+        System.out.println(isLeapYear);
+        // barking dog challenge end -------
     }
 }
