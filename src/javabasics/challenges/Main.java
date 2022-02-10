@@ -21,5 +21,10 @@ public class Main {
         boolean isLeapYear = LeapYearChallenge.isLeapYear(2000);
         System.out.println(isLeapYear);
         // barking dog challenge end -------
+
+        // decimal comparator challenge start -------
+        boolean areNumbersThreeDecimalPlaced = DecimalComparatorChallenge.areEqualByThreeDecimalPlaces(-3, 3.176);
+        System.out.println(areNumbersThreeDecimalPlaced);
+        // decimal comparator challenge end -------
     }
 }
