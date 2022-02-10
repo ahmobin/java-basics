@@ -1,6 +1,6 @@
 package javabasics.challenges;
 
-public class MegaBytesConverter {
+public class MegaBytesConverterChallenge {
     public static void printMegaBytesAndKiloBytes(int kiloBytes){
         int kbToMb = kiloBytes / 1024;
         int remainingKB = kiloBytes - (kbToMb * 1024);
