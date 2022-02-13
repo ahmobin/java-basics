@@ -27,9 +27,16 @@ public class Main {
         System.out.println(areNumbersThreeDecimalPlaced);
         // decimal comparator challenge end -------
 
-        // decimal comparator challenge start -------
+        // equal sum checker challenge start -------
         boolean isEqualFirstSecondParamsSumWithThirdParam = EqualSumCheckerChallenge.hasEqualSum(1,-1,0);
         System.out.println(isEqualFirstSecondParamsSumWithThirdParam);
-        // decimal comparator challenge end -------
+        // equal sum checker challenge end -------
+
+        // is teen challenge start -------
+        boolean hasTeen = TeenNumberCheckerChallenge.hasTeen(9,99,19);
+        System.out.println(hasTeen);
+        boolean isTeenCheck = TeenNumberCheckerChallenge.isTeen(9);
+        System.out.println(isTeenCheck);
+        // is teen challenge end -------
     }
 }
