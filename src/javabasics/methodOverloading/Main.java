@@ -9,5 +9,7 @@ public class Main {
         System.out.println(AreaCalculator.area(-1.0,4.0));
 
         MinutesToYearsDaysCalculator.printYearsAndDays(561600);
+
+        IntEqualityPrinter.printEqual(1,2,3);
     }
 }
