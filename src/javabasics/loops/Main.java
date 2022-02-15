@@ -17,5 +17,8 @@ public class Main {
 
         //sum of first and last digit of a number
         System.out.println(FirstAndLastDigitSum.sumFirstAndLastDigit(5));
+
+        //sum of even digits of a number
+        System.out.println(EvenDigitSum.getEvenDigitSum(58264716));
     }
 }
