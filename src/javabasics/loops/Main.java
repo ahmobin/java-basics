@@ -20,5 +20,8 @@ public class Main {
 
         //sum of even digits of a number
         System.out.println(EvenDigitSum.getEvenDigitSum(58264716));
+
+        //check shared digit
+        System.out.println(SharedDigit.hasSharedDigit(50,58));
     }
 }
