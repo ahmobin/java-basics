@@ -6,13 +6,28 @@ public class BankAccount {
     private String customerName;
     private String phoneNumber;
 
-    public void depositFund(double balance){
-        this.balance+= balance;
+    public BankAccount(){
+        System.out.println("Empty constructor called");
     }
 
-    public void withdrawFund(double balance){
-        if(this.balance >= balance){
-            this.balance-= balance;
+
+    public BankAccount(String accountNumber, double balance, String customerName, String phoneNumber){
+        this.accountNumber = accountNumber;
+        this.balance = balance;
+        this.customerName = customerName;
+        this.phoneNumber = phoneNumber;
+        System.out.println("params constructor called");
+    }
+
+    public void depositFund(double depositBalance){
+        this.balance+= depositBalance;
+    }
+
+    public void withdrawFund(double withdrawalBalance){
+        if(this.balance >= withdrawalBalance){
+            this.balance-= withdrawalBalance;
+        }else{
+            System.out.println("Do not have sufficient balance");
         }
     }
 

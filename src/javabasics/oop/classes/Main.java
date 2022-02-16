@@ -22,10 +22,10 @@ public class Main {
         bankAccount.setCustomerName("Account Holder");
         bankAccount.setPhoneNumber("01678965412");
         bankAccount.setBalance(0);
-        System.out.println("account balance " + bankAccount.getBalance());
+        System.out.println("the account balance of " + bankAccount.getCustomerName() + "(" + bankAccount.getAccountNumber() + ") : " + bankAccount.getBalance());
         bankAccount.depositFund(50000);
-        System.out.println("account new balance " + bankAccount.getBalance());
+        System.out.println("the account balance of " + bankAccount.getCustomerName() + "(" + bankAccount.getAccountNumber() + ") : " + bankAccount.getBalance());
         bankAccount.withdrawFund(5000);
-        System.out.println("account new balance " + bankAccount.getBalance());
+        System.out.println("the account balance of " + bankAccount.getCustomerName() + "(" + bankAccount.getAccountNumber() + ") : " + bankAccount.getBalance());
     }
 }
