@@ -8,7 +8,9 @@ public class ArrayBasicChallenge {
     public static void main(String[] args){
         int[] myInt = getIntegers(5);
         printArray(myInt);
-//        sortIntegers(myInt);
+        System.out.println("-------------");
+        int[] sorted = sortIntegers(myInt);
+        printArray(sorted);
     }
 
     public static int[] getIntegers(int number){
@@ -38,10 +40,11 @@ public class ArrayBasicChallenge {
 
         while (flag){
             flag = false;
-            for(int i =0; i<sortedArray.length; i++){
+            for(int i =0; i<sortedArray.length-1; i++){
                 if(sortedArray[i] < sortedArray[i+1]){
                     temp = sortedArray[i];
                     sortedArray[i] = sortedArray[i+1];
+                    sortedArray[i+1] = temp;
                     flag = true;
                 }
             }
