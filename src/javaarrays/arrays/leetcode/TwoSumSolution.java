@@ -2,12 +2,12 @@ package javaarrays.arrays.leetcode;
 
 import java.util.Arrays;
 
-public class Solution {
+public class TwoSumSolution {
 
     public static void main(String[] args){
         int[] nums = {3,2,4};
         int target = 6;
-        Solution solution = new Solution();
+        TwoSumSolution solution = new TwoSumSolution();
         int[] output = solution.twoSum(nums, target);
         System.out.println(Arrays.toString(output));
     }
