@@ -1,4 +1,4 @@
-package javaarrays.arrays.leetcode;
+package leetcode;
 
 import java.lang.*;
 
